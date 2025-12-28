@@ -1,13 +1,12 @@
 # Viva Defense: Real-Time Facial Expression Sensor
 
-<p align=\
-center\">
-  <img src=\"./assets/sample_predictions.png\" alt=\"Sample Predictions\" width=\"800\"/>
+<p align="center">
+  <img src="./assets/sample_predictions.png" alt="Sample Predictions" width="800"/>
 </p>
 
 This repository contains the code and resources for **Viva Defense**, a real-time facial expression sensor that detects whether a person appears **Confident** or **Stressed**. The project leverages a custom-trained Convolutional Neural Network (CNN) to classify facial expressions, providing a binary signal that can be used to create adaptive AI assistants or user-reactive software.
 
-We’ve all been there, sitting in a Viva or Interview, trying to answer technical questions while keeping a straight face, even though we’re panicking on the inside. 😅 I wanted to build an AI that doesn't just answer questions, but actually *reads the room*.
+We've all been there, sitting in a Viva or Interview, trying to answer technical questions while keeping a straight face, even though we're panicking on the inside. 😅 I wanted to build an AI that doesn't just answer questions, but actually *reads the room*.
 
 ---
 
@@ -42,8 +41,8 @@ By simplifying the problem domain, the model can focus on the most relevant cues
 - **Training Environment:** Google Colab with T4 GPU, utilizing Mixed-Precision Training for faster performance.
 - **Deployment:** Real-time inference script using OpenCV for webcam capture and TensorFlow for prediction.
 
-<p align=\"center\">
-  <img src=\"./assets/training_history.png\" alt=\"Training History\" width=\"700\"/>
+<p align="center">
+  <img src="./assets/training_history.png" alt="Training History" width="700"/>
 </p>
 
 ---
@@ -59,14 +58,14 @@ The model was trained for over 90 epochs and demonstrated excellent performance 
 | **Precision (Stressed)** | 84% |
 | **Recall (Stressed)** | 85% |
 
-<p align=\"center\">
-  <img src=\"./assets/roc_curve.png\" alt=\"ROC Curve\" width=\"500\"/>
+<p align="center">
+  <img src="./assets/roc_curve.png" alt="ROC Curve" width="500"/>
   <br/>
   <em>ROC Curve showing an AUC of 0.9349, indicating strong classification performance.</em>
 </p>
 
-<p align=\"center\">
-  <img src=\"./assets/confusion_matrix.png\" alt=\"Confusion Matrix\" width=\"700\"/>
+<p align="center">
+  <img src="./assets/confusion_matrix.png" alt="Confusion Matrix" width="700"/>
   <br/>
   <em>The model correctly identifies Stressed individuals 84.8% of the time and Confident individuals 85.3% of the time.</em>
 </p>
@@ -131,7 +130,7 @@ This analysis confirmed that a CNN architecture with a spatial attention mechani
 
 ## 🙏 Acknowledgements
 
-- I’d also like to sincerely thank **Dr. Mumtaz Zahoor** (AI subject teacher) and **Ayesha Khalid** for their guidance and support throughout this project.
+- I'd also like to sincerely thank **Dr. Mumtaz Zahoor** (AI subject teacher) and **Ayesha Khalid** for their guidance and support throughout this project.
 - Special thanks to my colleagues **Abdul Haseeb** and **M saad Arshad** for their help, discussions, and encouragement during development.
 
 ---
