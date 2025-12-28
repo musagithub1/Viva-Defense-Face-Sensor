@@ -1,0 +1,10 @@
+Feature,Confident Mean,Stressed Mean,T-statistic,P-value,Cohen's d,Significance
+edge_density,120.695,120.872,-0.320,0.7491,-0.018,ns
+entropy,7.252,7.244,0.302,0.7623,0.017,ns
+skewness,-0.209,-0.332,nan,nan,0.193,ns
+kurtosis,-0.323,-0.227,nan,nan,-0.071,ns
+top_mean,123.650,134.501,-4.943,0.0000,-0.285,***
+middle_mean,133.034,143.955,-5.580,0.0000,-0.322,***
+bottom_mean,122.349,129.545,-3.327,0.0009,-0.192,***
+top_std,52.769,53.712,-1.004,0.3155,-0.058,ns
+bottom_std,50.618,52.737,-2.459,0.0141,-0.142,*

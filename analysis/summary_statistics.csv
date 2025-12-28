@@ -1,0 +1,7 @@
+,,width,width,width,width,height,height,height,height,mean_intensity,mean_intensity,std_intensity,std_intensity,file_size_kb,file_size_kb,file_size_kb,file_size_kb
+,,mean,std,min,max,mean,std,min,max,mean,std,mean,std,mean,std,min,max
+split,label,,,,,,,,,,,,,,,,
+test,Confident,48.0,0.0,48,48,48.0,0.0,48,48,130.57,32.04,53.6,14.33,1.53,0.15,1.03,2.13
+test,Stressed,48.0,0.0,48,48,48.0,0.0,48,48,134.84,34.5,55.12,13.11,1.56,0.16,1.01,2.19
+train,Confident,48.0,0.0,48,48,48.0,0.0,48,48,125.5,34.26,53.28,13.46,1.53,0.16,0.35,2.05
+train,Stressed,48.0,0.0,48,48,48.0,0.0,48,48,135.46,34.08,54.43,13.48,1.56,0.17,0.35,2.17
